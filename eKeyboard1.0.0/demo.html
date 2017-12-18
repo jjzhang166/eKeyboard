@@ -1,0 +1,103 @@
+<!--Skyogo版权所有-->
+<!--eKeyboard版本:1.0.0-->
+
+<html>
+	<head>
+		<title>Welcome to use the eKeyboard!</title>
+		<meta charset="UTF-8">
+		<style>
+			body{
+				background: black;
+			}
+			h1{
+				color:white;
+			}
+			h2{
+				color:white;
+			}
+			h3{
+				color:white;
+			}
+			h4{
+				color:white;
+			}
+			.button{
+				cursor:pointer;
+			}
+		</style>
+		
+		<!--1 You should import CSS file-->
+		<link rel="stylesheet" type="text/css" href="css/eKeyboard.css" />
+		<!--2 You should import JS file-->
+		<script type="text/javascript" src="js/eKeyboard.js"></script>
+		<script>
+			window.onload = function(){
+				/*3 You should call the 'eKeyboard' function(Mandatory)*/
+				/*parameter:color(only has black and white)*/
+				eKeyboard("black");
+				/*4 You should call the 'eKeyboardInitialization' function(Mandatory)*/
+				eKeyboardInitialization();
+				
+				
+				
+				/*5 You can show the keyboard*/
+				/*parameter:top,left,canClose,canMove,closeAfterEnter,content*/
+				/*tip:If You set 'canMove' is true, it will be not changed*/
+				showKeyboard("250px","0px","false","false","false","欢迎使用eKeyboard！");
+				
+				
+				/*6 Get the User write*/
+				/*parameter:inputId*/
+				getValueByEnter("text1");
+				
+				
+				var shanchu = document.getElementById("shanchu");
+				shanchu.onclick = function(){
+					closeKeyboard();
+					showKeyboard("250px","0px","true","false","false","欢迎使用eKeyboard！");
+				};
+				var tuodong = document.getElementById("tuodong");
+				tuodong.onclick = function(){
+					closeKeyboard();
+					showKeyboard("250px","0px","false","true","false","欢迎使用eKeyboard！");
+				};
+				var both = document.getElementById("both");
+				both.onclick = function(){
+					closeKeyboard();
+					showKeyboard("250px","0px","true","true","false","欢迎使用eKeyboard！");
+				};
+				var bothNot = document.getElementById("bothNot");
+				bothNot.onclick = function(){
+					closeKeyboard();
+					showKeyboard("250px","0px","false","false","false","欢迎使用eKeyboard！");
+				};
+			};
+		</script>
+	</head>
+	<body>
+		<h1>-----欢迎使用eKeyboard-----</h1>
+		<br>
+		<h2>--eKeyboard是一种全新的虚拟键盘js框架，它总共有750行代码，是一款极其轻量级的js框架--</h2>
+		<h2>--------------eKeyboard由中国人自主研发，是一款全中文的虚拟键盘框架--------------</h2>
+		<h3>黑色版的eKeyboard预览：(不可拖动，无法被删除版)【有黑色和白色两种款式】</h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br><br>
+		<br>
+		<br>
+		<br>
+		
+		<h3 id="shanchu" class="button">(可被删除版)</h3>
+		<h3 id="tuodong" class="button">(可被拖动版)</h3>
+		<h3 id="both" class="button">(即可被拖动又可被删除版)</h3>
+		<h3 id="bothNot" class="button">(不可拖动不可删除版)</h3>
+		<h3>[由于可拖动只能设置一次，不可再更改，所以有可能不可拖动会无效]</h3>
+		<h3>[教程请看img文件夹里的图片]</h3>
+	</body>
+</html>

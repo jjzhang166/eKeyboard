@@ -1,0 +1,366 @@
+#keyboard{
+	height: 305px;
+	width:750px;
+	background:white;
+	top:0px;
+	left:0px;
+	border:1px black solid;
+	box-sizing:border-box;
+	position:absolute;
+}
+#keyboard-body{
+	width:750px;
+	height:260px;
+	box-sizing:border-box;
+	padding:10px;
+	border-bottom:1px black solid;
+	border-right:1px black solid;
+	border-bottom:1px black solid;
+}
+#keyboard-head{
+	width:750px;
+	height: 45px;
+	background:white;
+	border-bottom:1px black solid;
+	border-right:1px black solid;
+	box-sizing:border-box;
+	position:relative;
+	text-align:center;
+}
+.button-type1-white{
+	height: 40px;
+	width:40px;
+	text-align:center;
+	background:white;
+	font-size: 20px;
+	border-radius:5px;
+	box-sizing:border-box;
+	padding-top:5px;
+	cursor: pointer;
+}
+.button-type1-black{
+	height: 40px;
+	width:40px;
+	text-align:center;
+	background:black;
+	font-size: 20px;
+	border-radius:5px;
+	color:white;
+	box-sizing:border-box;
+	padding-top:5px;
+	cursor: pointer;
+}
+.button-type1-white:hover{
+	background: #2894FF;
+	
+}
+.button-type1-black:hover{
+	background: #2894FF;
+	
+}
+#button-1{
+	position:relative;
+	bottom:40px;
+	left:50px;
+}
+#button-2{
+	position:relative;
+	bottom:80px;
+	left:100px;
+}
+#button-3{
+	position:relative;
+	bottom:120px;
+	left:150px;
+}
+#button-4{
+	position:relative;
+	bottom:160px;
+	left:200px;
+}
+#button-5{
+	position:relative;
+	bottom:200px;
+	left:250px;
+}
+#button-6{
+	position:relative;
+	bottom:240px;
+	left:300px;
+}
+#button-7{
+	position:relative;
+	bottom:280px;
+	left:350px;
+}
+#button-8{
+	position:relative;
+	bottom:320px;
+	left:400px;
+}
+#button-9{
+	position:relative;
+	bottom:360px;
+	left:450px;
+}
+#button-0{
+	position:relative;
+	bottom:400px;
+	left:500px;
+}
+#button--{
+	position:relative;
+	bottom:440px;
+	left:550px;
+}
+#button-equal{
+	position:relative;
+	bottom:480px;
+	left:600px;
+}
+#button-delete{
+	position:relative;
+	bottom:520px;
+	left:650px;
+	width:80px;
+}
+#button-tab{
+	position:relative;
+	bottom:510px;
+	left:0px;
+	width:70px;
+}
+#button-q{
+	position:relative;
+	bottom:550px;
+	left:80px;
+}
+#button-w{
+	position:relative;
+	bottom:590px;
+	left:130px;
+}
+#button-e{
+	position:relative;
+	bottom:630px;
+	left:180px;
+}
+#button-r{
+	position:relative;
+	bottom:670px;
+	left:230px;
+}
+#button-t{
+	position:relative;
+	bottom:710px;
+	left:280px;
+}
+#button-y{
+	position:relative;
+	bottom:750px;
+	left:330px;
+}
+#button-u{
+	position:relative;
+	bottom:790px;
+	left:380px;
+}
+#button-i{
+	position:relative;
+	bottom:830px;
+	left:430px;
+}
+#button-o{
+	position:relative;
+	bottom:870px;
+	left:480px;
+}
+#button-p{
+	position:relative;
+	bottom:910px;
+	left:530px;
+}
+#button-braces-left{
+	position:relative;
+	bottom:950px;
+	left:580px;
+}
+#button-braces-right{
+	position:relative;
+	bottom:990px;
+	left:630px;
+}
+#button-backslash{
+	position:relative;
+	bottom:1030px;
+	left:680px;
+	width:50px;
+}
+#button-Lock{
+	position:relative;
+	bottom:1020px;
+	left:0px;
+	width:80px;
+}
+#button-a{
+	position:relative;
+	bottom:1060px;
+	left:90px;
+}
+#button-s{
+	position:relative;
+	bottom:1100px;
+	left:140px;
+}
+#button-d{
+	position:relative;
+	bottom:1140px;
+	left:190px;
+}
+#button-f{
+	position:relative;
+	bottom:1180px;
+	left:240px;
+}
+#button-g{
+	position:relative;
+	bottom:1220px;
+	left:290px;
+}
+#button-h{
+	position:relative;
+	bottom:1260px;
+	left:340px;
+}
+#button-j{
+	position:relative;
+	bottom:1300px;
+	left:390px;
+}
+#button-k{
+	position:relative;
+	bottom:1340px;
+	left:440px;
+}
+#button-l{
+	position:relative;
+	bottom:1380px;
+	left:490px;
+}
+#button-semicolon{
+	position:relative;
+	bottom:1420px;
+	left:540px;
+}
+#button-quotationMark{
+	position:relative;
+	bottom:1460px;
+	left:590px;
+}
+#button-enter{
+	position:relative;
+	bottom:1500px;
+	left:640px;
+	width:90px;
+}
+#button-shift{
+	position:relative;
+	bottom:1490px;
+	left:0px;
+	width:110px;
+}
+#button-z{
+	position:relative;
+	bottom:1530px;
+	left:120px;
+}
+#button-x{
+	position:relative;
+	bottom:1570px;
+	left:170px;
+}
+#button-c{
+	position:relative;
+	bottom:1610px;
+	left:220px;
+}
+#button-v{
+	position:relative;
+	bottom:1650px;
+	left:270px;
+}
+#button-b{
+	position:relative;
+	bottom:1690px;
+	left:320px;
+}
+#button-n{
+	position:relative;
+	bottom:1730px;
+	left:370px;
+}
+#button-m{
+	position:relative;
+	bottom:1770px;
+	left:420px;
+}
+#button-comma{
+	position:relative;
+	bottom:1810px;
+	left:470px;
+}
+#button-endSign{
+	position:relative;
+	bottom:1850px;
+	left:520px;
+}
+#button-slash{
+	position:relative;
+	bottom:1890px;
+	left:570px;
+}
+#button-space{
+	position:relative;
+	bottom:1880px;
+	left:130px;
+	width:450px;
+}
+.keyboard-body-white{
+	background:#F0F0F0;
+}
+/*Skyogo版权所有*/
+
+.keyboard-body-black{
+	background:#5b5b5b;
+}
+#keyboard-close{
+	border-radius:50%;
+	background:red;
+	height: 35px;
+	width:35px;
+	position:relative;
+	bottom:320px;
+	left:730px;
+	border:solid black 2px;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+#keyboard-close:hover{
+	border:none;
+}
+#inputBox{
+	height: 45px;
+	width:750px;
+	border:none;
+	font-size:18px;
+	box-sizing: border-box;
+	text-align:center;
+	padding:0px 10px;
+	border-right:black 1px solid;
+}
+.inputBox-white{
+	background:white;
+}
+.inputBox-black{
+	background:#BEBEBE;
+}
