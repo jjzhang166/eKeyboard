@@ -1,0 +1,21 @@
+————eKeyboard1.1.0教程————
+欢迎使用eKeyboard！以下是1.1.0的详细教程：（请严格按照使用的eKeyboard的版本来看教程）
+总体调用eKeyboard分为7个步骤：
+1、在使用eKeyboard之前，我们需要先导入css文件，在<head></head>标签里使用<link rel="stylesheet" type="text/css" href="css/eKeyboard.css" />
+
+2、然后导入js文件，也在<head></head>标签里使用<script type="text/javascript" src="js/eKeyboard.js"></script>
+
+3、再在<head></head>标签里写一个<script></script>
+
+4、在<script></script>里写上window.onload = function(){}方法
+
+5、现在导入都完毕了，正式开始eKeyboard方法调用和初始化，我们使用eKeyboard()方法来创建eKeyboard，里面给它传两个参数，一个是它的color属性（只有两个值“white”和“black”），还有一个是div的id或class或元素选择器（eKeyboard创建在这个div里，请一定要创建在空的div里，否则调用deleteKeyboard方法时会清除该div里的所有东西）
+
+6、调用eKeyboardInitialization()方法初始化eKeyboard
+
+7、然后使用showKeyboard()方法显示eKeyboard，其中有6个参数，第一个是eKeyboard的top值（absolute position），第二个是left值（absolute position），第三个是Keyboard可不可以被关闭（bool），第四个是可不可以被移动（bool），第五个是用户输入完成后点击Enter可不可以被关闭，第六个是原先的KeyBoard在显示的时候包含什么【所有参数除了包含的内容可以为空之外其他参数必须有值】
+————调用结束————
+
+其他方法：
+获取用户输入的值在用户点击Enter之后：使用getValueByEnter()方法，里面有一个参数，传的是关于inPut标签的id值或是class值或是元素值
+删除键盘方法：deleteKeyboard()方法会删除eKeyboard所在元素里面的全部内容
